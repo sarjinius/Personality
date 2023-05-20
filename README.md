@@ -1,25 +1,70 @@
-# Orbital
-Orbital Project
+# Getting Started with Create React App
 
-Project Personality
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Motivation 
+## Available Scripts
 
-Recently, the concept of personal branding has gained significant importance, especially in seeking employment or educational opportunities. With intense competition for limited positions, it has become crucial for individuals to distinguish themselves from other applicants to secure their desired outcome. However, most individuals rely on conventional platforms such as LinkedIn or resume templates, resulting in homogenised profiles that fail to stand out.
+In the project directory, you can run:
 
-This overall similarity in resumes and profiles has reached a point where it poses a significant challenge for individuals seeking employment or educational opportunities. They are forced to apply to many positions, often resulting in rejections due to the inability to differentiate themselves from other applicants. This approach leads to frustration and failure to achieve desired goals.
+### `npm start`
 
-To overcome this challenge, creating a unique profile that stands out from the crowd is essential. A customised profile design that showcases an individual's strengths, achievements, and personality traits can significantly enhance their chances of success. By leveraging a unique personal brand, individuals can differentiate themselves and attract the attention of potential employers or educational institutions.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-In conclusion, in the highly competitive job and education market, developing a distinct personal brand that sets individuals apart from the rest is crucial. By investing in a unique profile design, individuals can enhance their chances of success and secure their desired opportunities.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Aim 
+### `npm test`
 
-We aim to develop an innovative platform enabling individuals to create personalised web pages and resumes. This initiative will give users a unique opportunity to showcase their skills, achievements, and personal brand in a distinct manner, setting them apart from others.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Our platform will offer an intuitive interface that is easy to use, with customisable templates and designs that allow users to create their web pages and resumes quickly. Additionally, we plan to introduce a Telegram bot that will enable users to quickly search and find the profiles of others, making the process more efficient and user-friendly.
+### `npm run build`
 
-Our vision is to empower individuals to present themselves uniquely and compellingly, enhancing their chances of success in securing their desired opportunities. By offering a platform for personalisation and differentiation, we seek to revolutionise the traditional approach to the job and educational applications.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-In conclusion, we are committed to developing a cutting-edge platform to provide individuals with the tools and resources to create personalised web pages and resumes. This initiative will transform how people approach jobs and educational opportunities, enabling them to stand out in a crowded and competitive landscape.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
