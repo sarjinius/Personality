@@ -1,31 +1,32 @@
-.contract-container {
+  
+  .auth-form-container, .login-form {
     justify-content: center;
     display: grid;
-    color: white;
     text-align: center;
-}
-
-label{
-    color: black;
-}
-
-.contact-form {
-    justify-content: center;
-    display: grid;
-    color: black;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 1rem;
+      border-radius: 10px;
+      margin: 0.5rem;
+    }
+  }
+  
+  label {
     text-align: center;
-}
-
-input {
+    padding: 0.25rem 0;
+  }
+  
+  input {
     margin: 0.5rem 0;
     padding: 1rem;
     border: 1px solid black;
     border-radius: 10px;
-}
-
-button {
+  }
+  
+  button {
     font-size: 20px;
-    margin: 0.5rem 0;
     border: none;
     background-color: black;
     padding: 20px;
@@ -33,3 +34,5 @@ button {
     cursor: pointer;
     color: #ffffff;
   }
+  
+ 
