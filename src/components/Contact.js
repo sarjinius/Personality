@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/Contact.css";
 import Navbar from "./Navbar";
 
+//Contact Us Page
 const Contact = () => {
   return (
     <div>

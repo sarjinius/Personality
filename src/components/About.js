@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import "./styles/About.css"
 
+// About page to describe project
 const About = () => {
   return (
     <div>

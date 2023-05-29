@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './styles/Navbar.css';
 
+// The navigation page
 const Navbar = () => {
   return (
     <div className='sum'>

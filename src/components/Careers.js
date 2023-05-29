@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "./Navbar";
 
+//Careers Page
 const Careers = () => {
   return (
     

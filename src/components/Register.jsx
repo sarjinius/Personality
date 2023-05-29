@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./styles/Register.css";
 
+// Registration page to create an account.
 export const Register = (props) => {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
