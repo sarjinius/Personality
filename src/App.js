@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar";
-import Home from './components/Home';
 
+//the main page
 function App() {
 
   return (
