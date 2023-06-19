@@ -8,9 +8,10 @@ import Careers from './components/Careers';
 import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
-import Register from './components/Register'
+import Register from './components/Register';
+import Faq from './components/Faq';
 
-
+// Routes to all the different webpages
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
@@ -21,6 +22,7 @@ root.render(
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/Login" element={<Login/>}/>
       <Route path="/Register" element={<Register/>}/>
+      <Route path="/Faq" element={<Faq/>}/>
     </Routes>
   </Router>
 );
