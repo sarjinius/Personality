@@ -7,7 +7,7 @@ const { Panel } = Collapse;
 
 const Faq = () => {
     return (
-        <div className='block'>
+        <div>
             <Navbar/>
             <div className='container'>
                 <h2>FAQ</h2>

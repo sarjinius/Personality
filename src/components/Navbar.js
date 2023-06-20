@@ -29,6 +29,9 @@ const Navbar = () => {
                 <li>
                     <Link to="/faq">Faq</Link>
                 </li>
+                <li>
+                    <Link to="/Marketplace">Marketplace</Link>
+                </li>
             </ul>
         </nav>
     </div>
