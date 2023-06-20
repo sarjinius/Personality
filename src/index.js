@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Login from './components/Login';
 import Register from './components/Register';
 import Faq from './components/Faq';
+import Marketplace from './components/Marketplace';
 
 // Routes to all the different webpages
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
       <Route path="/Login" element={<Login/>}/>
       <Route path="/Register" element={<Register/>}/>
       <Route path="/Faq" element={<Faq/>}/>
+      <Route path="/Marketplace" element={<Marketplace/>}/>
     </Routes>
   </Router>
 );
