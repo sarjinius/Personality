@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
-import "./styles/About.css"
+import { Navbar } from "./Navbar";
+import "./styles/About.css";
 
 // About page to describe project
-const About = () => {
+export const About = () => {
   return (
     <div>
       <Navbar />
@@ -16,5 +16,3 @@ const About = () => {
     </div>
   );
 };
-
-export default About;

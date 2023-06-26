@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
+import { Navbar } from './Navbar';
 import { Collapse } from 'antd';
 import "./styles/Faq.css";
 
 const { Panel } = Collapse;
 
-const Faq = () => {
+export const Faq = () => {
     return (
         <div>
             <Navbar/>
@@ -37,6 +37,4 @@ const Faq = () => {
             </div>
         </div>
     );
-}
-
-export default Faq
+};

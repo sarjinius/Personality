@@ -1,9 +1,8 @@
-import React from 'react'
-import Navbar from './Navbar'
-import './styles/Marketplace.css'
+import React from 'react';
+import { Navbar } from './Navbar';
+import './styles/Marketplace.css';
 
-const Marketplace = () => {
-
+export const Marketplace = () => {
     return (
         <div>
             <Navbar />
@@ -107,7 +106,5 @@ const Marketplace = () => {
 
             </div>
         </div>
-    )
-}
-
-export default Marketplace
+    );
+};

@@ -1,32 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './App';
+import { Auth0ProviderWithNavigate } from "./Auth0ProviderWithNavigate";
+import { reportWebVitals } from './reportWebVitals';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Careers from './components/Careers';
-import About from './components/About';
-import Contact from './components/Contact';
-import Login from './components/Login';
-import Register from './components/Register';
-import Faq from './components/Faq';
-import Marketplace from './components/Marketplace';
 
 // Routes to all the different webpages
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
 root.render(
-  <Router>
-    <Routes>
-      <Route path='/' element={<App/>}/>
-      <Route path="/careers" element={<Careers/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/Login" element={<Login/>}/>
-      <Route path="/Register" element={<Register/>}/>
-      <Route path="/Faq" element={<Faq/>}/>
-      <Route path="/Marketplace" element={<Marketplace/>}/>
-    </Routes>
-  </Router>
+  <React.StrictMode>
+    <BrowserRouter>
+      <Auth0ProviderWithNavigate>
+        <App />
+      </Auth0ProviderWithNavigate>
+    </BrowserRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

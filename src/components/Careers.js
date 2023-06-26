@@ -1,15 +1,13 @@
-import React from 'react'
-import Navbar from "./Navbar";
+import React from 'react';
+import { Navbar } from "./Navbar";
 
-//Careers Page
-const Careers = () => {
+// Careers Page
+export const Careers = () => {
   return (
     
     <div>
       <Navbar/>
       Careers
       </div>
-  )
-}
-
-export default Careers
+  );
+};

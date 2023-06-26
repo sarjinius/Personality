@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles/Contact.css";
-import Navbar from "./Navbar";
+import { Navbar } from "./Navbar";
 
 //Contact Us Page
-const Contact = () => {
+export const Contact = () => {
   return (
     <div>
       <Navbar />
@@ -22,5 +22,3 @@ const Contact = () => {
     </div>
   );
 };
-
-export default Contact;
