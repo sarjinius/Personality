@@ -52,7 +52,7 @@ export const App = () => {
       <Route path="/faq" element={<Faq />}/>
       <Route 
         path="/marketplace" 
-        element={<AuthenticationGuard component={Marketplace} />} 
+        element={<Marketplace/>} 
       />
     </Routes>
   );
