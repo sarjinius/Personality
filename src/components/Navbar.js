@@ -1,14 +1,19 @@
-import { useAuth0 } from '@auth0/auth0-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LoginButton } from './buttons/LoginButton';
-import { LogoutButton } from './buttons/LogoutButton';
+import { SignoutButton } from './buttons/SignoutButton';
 import { SignupButton } from './buttons/SignupButton';
 import './styles/Navbar.css';
 
 // The navigation page
 export const Navbar = () => {
-    const { isAuthenticated } = useAuth0();
+    var currentUser = null;
+
+    if (localStorage.getItem("keepLoggedIn") == "yes") {
+        currentUser = JSON.parse(localStorage.getItem('user'));
+    } else {
+        currentUser = JSON.parse(sessionStorage.getItem('user'));
+    }
 
     return (
         <div className='sum'>
@@ -35,15 +40,15 @@ export const Navbar = () => {
                 </ul>
             </nav>
             <div className="nav-bar__buttons">
-                {!isAuthenticated && (
+                {currentUser == null && (
                     <>
                         <SignupButton />
                         <LoginButton />
                     </>
                 )}
-                {isAuthenticated && (
+                {currentUser != null && (
                     <>
-                        <LogoutButton />
+                        <SignoutButton />
                     </>
                 )}
             </div>

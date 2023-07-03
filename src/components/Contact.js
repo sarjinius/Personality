@@ -9,7 +9,7 @@ export const Contact = () => {
       <Navbar />
       <div className="contact-form">
         <h2>Contact</h2>
-        <div className="contract-container">
+        <div className="contact-container">
           <label htmlFor="name">Name</label>
           <input type="text" placeholder="Name" />
           <label htmlFor="email">Email</label>
